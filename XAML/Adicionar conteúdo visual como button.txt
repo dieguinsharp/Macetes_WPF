@@ -1,0 +1,10 @@
+<Button>
+                <Button.Content>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="OK"/>
+                            <TextBlock Text=" <> "/>
+                        </StackPanel>
+                    </DataTemplate>
+                </Button.Content>
+</Button>
