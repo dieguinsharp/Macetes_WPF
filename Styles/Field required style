@@ -1,0 +1,13 @@
+** Style para por do lado de campos obrigatórios **
+
+<Style x:Key="MetrisDesignTextFieldLabelRequiredStyle"
+	   TargetType="{x:Type TextBlock}">
+	<Setter Property="Foreground" Value="{DynamicResource MetrisRedWarningBrush}" />
+	<Setter Property="FontSize" Value="14" />
+	<Setter Property="FontFamily" Value="../Fonts/Gilroy-Regular.otf #Gilroy"/>
+	<Setter Property="Margin" Value="2,0,0,0" />
+	<Setter Property="FontWeight" Value="Regular" />
+	<Setter Property="VerticalAlignment" Value="Center"/>
+	<Setter Property="ToolTip" Value="Required" />
+	<Setter Property="Text" Value="*" />
+</Style>
